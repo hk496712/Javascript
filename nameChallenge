@@ -1,6 +1,7 @@
+//challange 2 : capital first alphabet and rest in small
 var yourName = prompt("Enter your name :- ");
 var firstAlpha = yourName.slice(0,1);
 var capitalFirst = firstAlpha.toUpperCase();
-var restAlpha = yourName.slice(1,50);
+var restAlpha = yourName.slice(1,yourName.length);
 var lowerRest = restAlpha.toLowerCase();
 alert("Hi your name is : "+capitalFirst+lowerRest);
