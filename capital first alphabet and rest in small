@@ -1,0 +1,6 @@
+var yourName = prompt("Enter your name :- ");
+var firstAlpha = yourName.slice(0,1);
+var capitalFirst = firstAlpha.toUpperCase();
+var restAlpha = yourName.slice(1,50);
+var lowerRest = restAlpha.toLowerCase();
+alert("Hi your name is : "+capitalFirst+lowerRest);
